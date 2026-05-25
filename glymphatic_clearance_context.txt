@@ -1,0 +1,247 @@
+glymphatic_clearance_context.txt
+================================
+
+Companion reference for the Nedergaard citation in README.md.
+
+This file is a neutral context document, not a claim. It summarises the
+recently-published framework on sleep-rhythm-mediated glymphatic clearance
+and dementia risk, identifies the points of contact between that framework
+and the observation documented in this repository, and is explicit about
+what this repository does and does not assert in relation to it.
+
+
+1. PRIMARY SOURCE
+-----------------
+
+Nedergaard, M. "The oscillatory biology of sleep: Linkage to dementia."
+Science, May 2026. DOI: 10.1126/science.aeg2276.
+
+Summary of the review's central argument, as reported in the source paper
+and the accompanying University of Rochester Medicine, Medical Xpress,
+News-Medical, and Neuroscience News coverage (all 21-22 May 2026):
+
+- During sleep, the major neuromodulators (norepinephrine, acetylcholine,
+  serotonin, dopamine, and histamine) shift from independent activity
+  during wakefulness into a coordinated rhythm with a periodicity of
+  approximately 50 seconds.
+
+- These synchronised neuromodulator oscillations are phase-coupled to
+  cerebrospinal fluid (CSF) flow and drive slow rhythmic changes in
+  blood vessel diameter (vasomotion) that are independent of the cardiac
+  cycle.
+
+- Vasomotion powers the glymphatic system, which circulates CSF through
+  tissue surrounding cerebral blood vessels and clears metabolic waste,
+  including amyloid-beta and tau proteins implicated in Alzheimer's
+  disease and other dementias.
+
+- Disruption of this sleep-dependent synchronisation — by aging, chronic
+  stress, depression, cardiovascular disease, fragmented sleep, certain
+  medications, or substance use — impairs glymphatic clearance and may
+  represent a previously unrecognised mechanistic pathway linking these
+  diverse risk factors to elevated dementia risk.
+
+- The review explicitly identifies heart rate variability (HRV), already
+  measurable on consumer wearables, as a candidate noninvasive biomarker
+  for assessing sleep-related brain clearance efficiency and identifying
+  individuals at increased risk of cognitive decline.
+
+
+2. SUPPORTING AND RELATED LITERATURE
+------------------------------------
+
+- Hauglund, N. L. et al. "Norepinephrine-mediated slow vasomotion drives
+  glymphatic clearance during sleep." Cell 188, 606-622.e17 (2025).
+  Establishes the norepinephrine-vasomotion-glymphatic mechanism in
+  experimental work that the Nedergaard review synthesises.
+
+- Nedergaard, M. & Goldman, S. A. "Glymphatic failure as a final common
+  pathway to dementia." Science 370, 50-56 (2020). The earlier
+  formulation of the glymphatic-failure-to-dementia pathway, before the
+  neuromodulator-synchronisation component was added.
+
+- Varga, A. & Iliff, J. Debate at the 2025 SLEEP Annual Meeting
+  (8-11 June 2025, Seattle), "Failure of brain cleansing during sleep
+  causes Alzheimer disease." Reported by NeurologyLive, May 2026. The
+  debate covered ongoing scientific controversy: recent data suggest
+  some glymphatic clearance may also occur during wakefulness, and the
+  sleep-exclusivity of the mechanism is not settled. Both debaters
+  agreed on the therapeutic relevance of optimising slow-wave sleep
+  architecture, by pharmacologic means (dual orexin receptor
+  antagonists) and nonpharmacologic means (closed-loop acoustic
+  stimulation, vestibular nerve stimulation, temperature regulation).
+
+- Sleep-disorder reviews continue to document strong associations
+  between sleep fragmentation and neurodegenerative disease markers,
+  with aquaporin-4 (AQP4) expression changes implicated as one
+  mechanistic link (Zhang et al. 2020; Vasciaveo et al. 2023).
+
+The state of the field is best characterised as: the sleep-rhythm-to-
+glymphatic-to-dementia pathway is a leading and recently strengthened
+hypothesis with substantial experimental support, but it is not
+established as the sole or dominant pathway, and the relative
+contributions of sleep-state and wake-state clearance remain under
+active debate.
+
+
+3. POINTS OF CONTACT WITH THIS REPOSITORY
+-----------------------------------------
+
+The Nedergaard framework intersects the observation documented in this
+repository at three points.
+
+3.1 HRV as the named wearable biomarker.
+
+The review identifies HRV measurable on consumer wearables as the
+candidate noninvasive biomarker for sleep-related brain clearance
+efficiency. The repository's primary metric — REM-segment respiration
+distribution shape, scored by GMM bimodality on Garmin Connect data —
+is a metric in the same measurement family (autonomic synchronisation
+during sleep, derived from wearable data already collected at scale).
+The bimodality phenotype is not HRV in the standard time-domain or
+frequency-domain sense, but it is a respiration-cardiac coupling
+signature derivable from the same sensor stream, and a candidate
+companion metric to standard HRV indices in any cohort study that
+adopts HRV as a biomarker per the Nedergaard framework.
+
+3.2 Disrupted synchronisation as the proposed mechanism.
+
+The review's central claim is that disruption of synchronised
+sub-second-to-50-second oscillations during sleep impairs glymphatic
+function. The bimodality phenotype documented in this repository is,
+by construction, a signature of disrupted versus organised respiration
+during REM. Whether bimodal REM respiration corresponds specifically
+to disrupted neuromodulator-vasomotion synchronisation is an open
+empirical question that direct measurement could settle. The
+correspondence is plausible but not established.
+
+3.3 Cost asymmetry as the action argument.
+
+The Nedergaard framework strengthens the cost-asymmetry argument that
+all framings in this repository converge on. If a wearable-derivable
+autonomic-synchronisation metric is in fact a biomarker for elevated
+dementia risk, then running a falsifiable population-scale screen on
+data already collected by wearable platforms becomes correspondingly
+more valuable per unit cost. The framework does not change what the
+repository proposes to do; it changes the prior on whether the
+proposed Phase A test is worth running.
+
+
+4. WHAT THIS REPOSITORY DOES NOT CLAIM
+--------------------------------------
+
+To be explicit about the boundary, in line with the README's "What this
+repository is not" section:
+
+- The repository does not claim that the intervention documented in the
+  n=1 record (mechanical stochastic-resonance coupling via vibrating
+  pillow from mid-December 2025) improves glymphatic clearance. No
+  glymphatic measurement was taken in the n=1 record. The intervention's
+  effect on glymphatic flow, vasomotion amplitude, CSF transport, or
+  toxic-protein clearance is unknown.
+
+- The repository does not claim that the intervention reduces dementia
+  risk. Dementia is a long-latency outcome that no single-subject
+  intervention record can speak to. The repository's interest in the
+  Nedergaard framework is mechanistic and analytical, not therapeutic.
+
+- The repository does not claim that bimodal REM respiration is
+  causally linked to impaired glymphatic function. The relationship
+  between the bimodality phenotype and any glymphatic measure is an
+  open question that this repository proposes as testable, not a
+  finding it reports.
+
+- The repository does not claim that resolving bimodality necessarily
+  resolves disrupted neuromodulator synchronisation. The correlation
+  observed in the n=1 record between bimodality collapse and improved
+  Garmin-derived autonomic markers is consistent with that
+  interpretation but does not establish it.
+
+- The Nedergaard review is cited as recent independent context for
+  examining HRV and related sleep-autonomic metrics at population
+  scale. It is not cited as evidence for any specific claim about the
+  intervention, the subject, or the bimodality metric.
+
+
+5. WHAT WOULD CLOSE THE GAP
+---------------------------
+
+The instrumentation step required to test the proposed correspondence
+between the bimodality phenotype and the Nedergaard mechanism is
+described in the README's "Next instrumentation step" section. In
+brief: pillow-integrated continuous measurement of HRV and
+respiration-cardiac coupling, synchronised with periodic direct
+glymphatic measurement (MRI-based CSF flow imaging or equivalent) in
+appropriately equipped studies. Pillow-form-factor instrumentation
+removes the wrist-strap compliance problem at population scale and
+provides higher-quality cardiopulmonary signal than wrist photo-
+plethysmography. Pairing this with direct glymphatic measurement in a
+smaller validation cohort would establish whether the wearable-
+derivable signature in fact tracks the glymphatically-relevant
+mechanism the review proposes.
+
+This is the highest-priority next step in the research direction
+documented in this repository.
+
+
+6. ORIGIN OF THE RESEARCH DIRECTION
+-----------------------------------
+
+The dementia-reduction framing is not a retrospective addition prompted
+by the May 2026 Nedergaard publication. It is the original brief that
+seeded the work. The Nightbheat presentation at the GAP Medical
+innovation hub in Pretoria in 2019 — where the project reached the
+final round — identified reduction of dementia risk as the primary
+public-health challenge to be addressed, motivated in part by the
+higher dementia prevalence observed on the Highveld. The subsequent
+seven-year arc — personal post-COVID symptoms from February 2020,
+years of self-tracked Garmin data, the intervention applied in
+mid-December 2025, and the framings collected in this repository in
+2026 — has run on that original brief.
+
+The May 2026 Nedergaard review provides recent independent theoretical
+context for that original framing. It does not redirect the work; it
+restates, in current mechanistic terms, what the 2019 brief identified
+as the public-health target.
+
+
+7. ACKNOWLEDGEMENT OF UNCERTAINTY
+---------------------------------
+
+The glymphatic-clearance-to-dementia pathway is a strongly supported
+but actively-debated hypothesis. The relative contributions of sleep
+and wakefulness to clearance, the quantitative link between
+neuromodulator synchronisation and glymphatic function in humans, and
+the predictive value of wearable-derivable autonomic signatures for
+long-term cognitive outcomes are all questions on which the evidence
+base is still being built. This document, and the repository it
+accompanies, takes the framework seriously as an organising context
+without treating it as settled science.
+
+
+--
+
+References to coverage and primary sources:
+
+- Nedergaard, M. Science, May 2026.
+  https://www.science.org/doi/10.1126/science.aeg2276
+
+- University of Rochester Medicine, "The Brain's Night Shift: How
+  Sleep, Waste Clearance, and Dementia May Be Linked." 21 May 2026.
+  https://www.urmc.rochester.edu/news/story/the-brains-night-shift-how-sleep-waste-clearance-and-dementia-may-be-linked
+
+- Neuroscience News, "Broken Sleep Rhythms: The Glymphatic Link to
+  Dementia." 21 May 2026.
+  https://neurosciencenews.com/sleep-rhythms-glymphatic-waste-dementia-30750/
+
+- Medical Xpress, "The brain's night shift: How sleep, waste
+  clearance and dementia may be linked." 21 May 2026.
+  https://medicalxpress.com/news/2026-05-brain-night-shift-clearance-dementia.html
+
+- News-Medical, "Disrupted sleep rhythms may increase dementia risk
+  through impaired waste clearance." 22 May 2026.
+  https://www.news-medical.net/news/20260522/Disrupted-sleep-rhythms-may-increase-dementia-risk-through-impaired-waste-clearance.aspx
+
+- NeurologyLive, "Debate on Glymphatic System Reexamines Sleep's Role
+  in Alzheimer Disease Pathology." May 2026.
+  https://www.neurologylive.com/view/debate-glymphatic-system-reexamines-sleep-role-alzheimer-disease-pathology
